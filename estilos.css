@@ -1,0 +1,67 @@
+
+.img1{
+   box-sizing: 0px;
+   border: none;
+   -webkit-box-shadow: 0px 5px 26px 8px rgba(245, 79, 109 ); moz-b
+}
+
+.img2{
+    -webkit-box-shadow: 0px 5px 26px 8px rgba(245, 79, 109 ); moz-b
+
+}
+.pipedriveWebForms{
+    background-color: #ffffff;
+    width: 650px;
+    height: 620px;
+    -webkit-animation-duration: 4ms;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  height: 77px;
+  width: 300px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #F25574;
+  font-size: 18px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #F25574;
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #F25574;
+  transition: all 500ms ease;
+  z-index: -1;
+
+}
+.btn--2:hover {
+  background-color: #F25574;
+  box-shadow: 0 0 10px #F25574, 0 0 20px #F25574, 0 0 20px #F25574;
+  color: #434343;
+}
+.btn--3:hover {
+  animation: shadow-pulse 1000ms 1;
+  background-color: #F25574;
+  color: #434343;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(242, 85, 116 );
+  }
+  100% {
+    box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+  }
+}
